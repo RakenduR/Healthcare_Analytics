@@ -1,0 +1,1401 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0324.2209                               -->
+<workbook original-version='18.1' source-build='2022.1.0 (20221.22.0324.2209)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='triage_dbp' datatype='real' name='[Parameter 10]' param-domain-type='list' role='measure' type='quantitative' value='49.0'>
+        <calculation class='tableau' formula='49.0' />
+        <members>
+          <member value='20.0' />
+          <member value='21.0' />
+          <member value='22.0' />
+          <member value='23.0' />
+          <member value='24.0' />
+          <member value='25.0' />
+          <member value='26.0' />
+          <member value='27.0' />
+          <member value='28.0' />
+          <member value='29.0' />
+          <member value='30.0' />
+          <member value='31.0' />
+          <member value='32.0' />
+          <member value='33.0' />
+          <member value='34.0' />
+          <member value='35.0' />
+          <member value='36.0' />
+          <member value='37.0' />
+          <member value='38.0' />
+          <member value='39.0' />
+          <member value='40.0' />
+          <member value='41.0' />
+          <member value='42.0' />
+          <member value='43.0' />
+          <member value='44.0' />
+          <member value='45.0' />
+          <member value='46.0' />
+          <member value='47.0' />
+          <member value='48.0' />
+          <member value='49.0' />
+          <member value='50.0' />
+          <member value='51.0' />
+          <member value='52.0' />
+          <member value='53.0' />
+          <member value='54.0' />
+          <member value='55.0' />
+          <member value='56.0' />
+          <member value='57.0' />
+          <member value='58.0' />
+          <member value='59.0' />
+          <member value='60.0' />
+          <member value='61.0' />
+          <member value='62.0' />
+          <member value='63.0' />
+          <member value='64.0' />
+          <member value='65.0' />
+          <member value='66.0' />
+          <member value='67.0' />
+          <member value='68.0' />
+          <member value='69.0' />
+          <member value='70.0' />
+          <member value='71.0' />
+          <member value='72.0' />
+          <member value='73.0' />
+          <member value='74.0' />
+          <member value='75.0' />
+          <member value='76.0' />
+          <member value='77.0' />
+          <member value='78.0' />
+          <member value='79.0' />
+          <member value='80.0' />
+          <member value='81.0' />
+          <member value='82.0' />
+          <member value='83.0' />
+          <member value='84.0' />
+          <member value='85.0' />
+          <member value='86.0' />
+          <member value='87.0' />
+          <member value='88.0' />
+          <member value='89.0' />
+          <member value='90.0' />
+          <member value='91.0' />
+          <member value='92.0' />
+          <member value='93.0' />
+          <member value='94.0' />
+          <member value='95.0' />
+          <member value='96.0' />
+          <member value='97.0' />
+          <member value='98.0' />
+          <member value='99.0' />
+          <member value='100.0' />
+          <member value='101.0' />
+          <member value='102.0' />
+          <member value='103.0' />
+          <member value='104.0' />
+          <member value='105.0' />
+          <member value='106.0' />
+          <member value='107.0' />
+          <member value='108.0' />
+          <member value='109.0' />
+          <member value='110.0' />
+          <member value='111.0' />
+          <member value='112.0' />
+          <member value='113.0' />
+          <member value='114.0' />
+          <member value='115.0' />
+          <member value='116.0' />
+          <member value='117.0' />
+          <member value='118.0' />
+          <member value='119.0' />
+          <member value='120.0' />
+          <member value='121.0' />
+          <member value='122.0' />
+          <member value='123.0' />
+          <member value='124.0' />
+          <member value='125.0' />
+          <member value='126.0' />
+          <member value='127.0' />
+          <member value='128.0' />
+          <member value='129.0' />
+          <member value='130.0' />
+          <member value='131.0' />
+          <member value='132.0' />
+          <member value='133.0' />
+          <member value='134.0' />
+          <member value='135.0' />
+          <member value='136.0' />
+          <member value='137.0' />
+          <member value='138.0' />
+          <member value='139.0' />
+          <member value='140.0' />
+          <member value='141.0' />
+          <member value='142.0' />
+          <member value='143.0' />
+          <member value='144.0' />
+          <member value='145.0' />
+          <member value='146.0' />
+          <member value='147.0' />
+          <member value='148.0' />
+          <member value='149.0' />
+          <member value='150.0' />
+          <member value='151.0' />
+          <member value='152.0' />
+          <member value='153.0' />
+          <member value='154.0' />
+          <member value='155.0' />
+          <member value='156.0' />
+          <member value='157.0' />
+          <member value='158.0' />
+          <member value='159.0' />
+          <member value='160.0' />
+          <member value='161.0' />
+          <member value='162.0' />
+          <member value='163.0' />
+          <member value='164.0' />
+          <member value='165.0' />
+          <member value='166.0' />
+          <member value='167.0' />
+          <member value='168.0' />
+          <member value='169.0' />
+          <member value='170.0' />
+          <member value='171.0' />
+          <member value='172.0' />
+          <member value='173.0' />
+          <member value='174.0' />
+          <member value='175.0' />
+          <member value='176.0' />
+          <member value='177.0' />
+          <member value='178.0' />
+          <member value='179.0' />
+          <member value='180.0' />
+          <member value='181.0' />
+          <member value='182.0' />
+          <member value='183.0' />
+          <member value='184.0' />
+          <member value='185.0' />
+          <member value='186.0' />
+          <member value='187.0' />
+          <member value='188.0' />
+          <member value='189.0' />
+          <member value='190.0' />
+          <member value='191.0' />
+          <member value='192.0' />
+          <member value='193.0' />
+          <member value='194.0' />
+          <member value='195.0' />
+          <member value='196.0' />
+          <member value='197.0' />
+          <member value='198.0' />
+          <member value='199.0' />
+          <member value='200.0' />
+        </members>
+      </column>
+      <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='43.0'>
+        <calculation class='tableau' formula='43.0' />
+        <members>
+          <member value='18.0' />
+          <member value='19.0' />
+          <member value='20.0' />
+          <member value='21.0' />
+          <member value='22.0' />
+          <member value='23.0' />
+          <member value='24.0' />
+          <member value='25.0' />
+          <member value='26.0' />
+          <member value='27.0' />
+          <member value='28.0' />
+          <member value='29.0' />
+          <member value='30.0' />
+          <member value='31.0' />
+          <member value='32.0' />
+          <member value='33.0' />
+          <member value='34.0' />
+          <member value='35.0' />
+          <member value='36.0' />
+          <member value='37.0' />
+          <member value='38.0' />
+          <member value='39.0' />
+          <member value='40.0' />
+          <member value='41.0' />
+          <member value='42.0' />
+          <member value='43.0' />
+          <member value='44.0' />
+          <member value='45.0' />
+          <member value='46.0' />
+          <member value='47.0' />
+          <member value='48.0' />
+          <member value='49.0' />
+          <member value='50.0' />
+          <member value='51.0' />
+          <member value='52.0' />
+          <member value='53.0' />
+          <member value='54.0' />
+          <member value='55.0' />
+          <member value='56.0' />
+          <member value='57.0' />
+          <member value='58.0' />
+          <member value='59.0' />
+          <member value='60.0' />
+          <member value='61.0' />
+          <member value='62.0' />
+          <member value='63.0' />
+          <member value='64.0' />
+          <member value='65.0' />
+          <member value='66.0' />
+          <member value='67.0' />
+          <member value='68.0' />
+          <member value='69.0' />
+          <member value='70.0' />
+          <member value='71.0' />
+          <member value='72.0' />
+          <member value='73.0' />
+          <member value='74.0' />
+          <member value='75.0' />
+          <member value='76.0' />
+          <member value='77.0' />
+          <member value='78.0' />
+          <member value='79.0' />
+          <member value='80.0' />
+          <member value='81.0' />
+          <member value='82.0' />
+          <member value='83.0' />
+          <member value='84.0' />
+          <member value='85.0' />
+          <member value='86.0' />
+          <member value='87.0' />
+          <member value='88.0' />
+          <member value='89.0' />
+          <member value='90.0' />
+          <member value='91.0' />
+          <member value='92.0' />
+          <member value='93.0' />
+          <member value='94.0' />
+          <member value='95.0' />
+          <member value='96.0' />
+          <member value='97.0' />
+          <member value='98.0' />
+          <member value='99.0' />
+          <member value='100.0' />
+          <member value='101.0' />
+          <member value='102.0' />
+          <member value='103.0' />
+          <member value='104.' />
+          <member value='105.' />
+          <member value='106.' />
+          <member value='107.' />
+          <member value='108.' />
+          <member value='109.' />
+          <member value='110.' />
+        </members>
+      </column>
+      <column caption='triage_sbp' datatype='real' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='120.0'>
+        <calculation class='tableau' formula='120.0' />
+        <members>
+          <member value='50.0' />
+          <member value='51.0' />
+          <member value='52.0' />
+          <member value='53.0' />
+          <member value='54.0' />
+          <member value='55.0' />
+          <member value='56.0' />
+          <member value='57.0' />
+          <member value='58.0' />
+          <member value='59.0' />
+          <member value='60.0' />
+          <member value='61.0' />
+          <member value='62.0' />
+          <member value='63.0' />
+          <member value='64.0' />
+          <member value='65.0' />
+          <member value='66.0' />
+          <member value='67.0' />
+          <member value='68.0' />
+          <member value='69.0' />
+          <member value='70.0' />
+          <member value='71.0' />
+          <member value='72.0' />
+          <member value='73.0' />
+          <member value='74.0' />
+          <member value='75.0' />
+          <member value='76.0' />
+          <member value='77.0' />
+          <member value='78.0' />
+          <member value='79.0' />
+          <member value='80.0' />
+          <member value='81.0' />
+          <member value='82.0' />
+          <member value='83.0' />
+          <member value='84.0' />
+          <member value='85.0' />
+          <member value='86.0' />
+          <member value='87.0' />
+          <member value='88.0' />
+          <member value='89.0' />
+          <member value='90.0' />
+          <member value='91.0' />
+          <member value='92.0' />
+          <member value='93.0' />
+          <member value='94.0' />
+          <member value='95.0' />
+          <member value='96.0' />
+          <member value='97.0' />
+          <member value='98.0' />
+          <member value='99.0' />
+          <member value='100.0' />
+          <member value='101.0' />
+          <member value='102.0' />
+          <member value='103.0' />
+          <member value='104.0' />
+          <member value='105.0' />
+          <member value='106.0' />
+          <member value='107.0' />
+          <member value='108.0' />
+          <member value='109.0' />
+          <member value='110.0' />
+          <member value='111.0' />
+          <member value='112.0' />
+          <member value='113.0' />
+          <member value='114.0' />
+          <member value='115.0' />
+          <member value='116.0' />
+          <member value='117.0' />
+          <member value='118.0' />
+          <member value='119.0' />
+          <member value='120.0' />
+          <member value='121.0' />
+          <member value='122.0' />
+          <member value='123.0' />
+          <member value='124.0' />
+          <member value='125.0' />
+          <member value='126.0' />
+          <member value='127.0' />
+          <member value='128.0' />
+          <member value='129.0' />
+          <member value='130.0' />
+          <member value='131.0' />
+          <member value='132.0' />
+          <member value='133.0' />
+          <member value='134.0' />
+          <member value='135.0' />
+          <member value='136.0' />
+          <member value='137.0' />
+          <member value='138.0' />
+          <member value='139.0' />
+          <member value='140.0' />
+          <member value='141.0' />
+          <member value='142.0' />
+          <member value='143.0' />
+          <member value='144.0' />
+          <member value='145.0' />
+          <member value='146.0' />
+          <member value='147.0' />
+          <member value='148.0' />
+          <member value='149.0' />
+          <member value='150.0' />
+          <member value='151.0' />
+          <member value='152.0' />
+          <member value='153.0' />
+          <member value='154.0' />
+          <member value='155.0' />
+          <member value='156.0' />
+          <member value='157.0' />
+          <member value='158.0' />
+          <member value='159.0' />
+          <member value='160.0' />
+          <member value='161.0' />
+          <member value='162.0' />
+          <member value='163.0' />
+          <member value='164.0' />
+          <member value='165.0' />
+          <member value='166.0' />
+          <member value='167.0' />
+          <member value='168.0' />
+          <member value='169.0' />
+          <member value='170.0' />
+          <member value='171.0' />
+          <member value='172.0' />
+          <member value='173.0' />
+          <member value='174.0' />
+          <member value='175.0' />
+          <member value='176.0' />
+          <member value='177.0' />
+          <member value='178.0' />
+          <member value='179.0' />
+          <member value='180.0' />
+          <member value='181.0' />
+          <member value='182.0' />
+          <member value='183.0' />
+          <member value='184.0' />
+          <member value='185.0' />
+          <member value='186.0' />
+          <member value='187.0' />
+          <member value='188.0' />
+          <member value='189.0' />
+          <member value='190.0' />
+          <member value='191.0' />
+          <member value='192.0' />
+          <member value='193.0' />
+          <member value='194.0' />
+          <member value='195.0' />
+          <member value='196.0' />
+          <member value='197.0' />
+          <member value='198.0' />
+          <member value='199.0' />
+          <member value='200.0' />
+          <member value='201.0' />
+          <member value='202.0' />
+          <member value='203.0' />
+          <member value='204.0' />
+          <member value='205.0' />
+          <member value='206.0' />
+          <member value='207.0' />
+          <member value='208.0' />
+          <member value='209.0' />
+          <member value='210.0' />
+          <member value='211.0' />
+          <member value='212.0' />
+          <member value='213.0' />
+          <member value='214.0' />
+          <member value='215.0' />
+          <member value='216.0' />
+          <member value='217.0' />
+          <member value='218.0' />
+          <member value='219.0' />
+          <member value='220.0' />
+          <member value='221.0' />
+          <member value='222.0' />
+          <member value='223.0' />
+          <member value='224.0' />
+          <member value='225.0' />
+          <member value='226.0' />
+          <member value='227.0' />
+          <member value='228.0' />
+          <member value='229.0' />
+          <member value='230.0' />
+          <member value='231.0' />
+          <member value='232.0' />
+          <member value='233.0' />
+          <member value='234.0' />
+          <member value='235.0' />
+          <member value='236.0' />
+          <member value='237.0' />
+          <member value='238.0' />
+          <member value='239.0' />
+          <member value='240.0' />
+          <member value='241.0' />
+          <member value='242.0' />
+          <member value='243.0' />
+          <member value='244.0' />
+          <member value='245.0' />
+          <member value='246.0' />
+          <member value='247.0' />
+          <member value='248.0' />
+          <member value='249.0' />
+          <member value='250.0' />
+        </members>
+      </column>
+      <column caption='triage_acuity' datatype='integer' name='[Parameter 4]' param-domain-type='range' role='measure' type='quantitative' value='1'>
+        <calculation class='tableau' formula='1' />
+        <range granularity='1' max='5' min='1' />
+      </column>
+      <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='66'>
+        <calculation class='tableau' formula='66' />
+        <range max='250' min='30' />
+      </column>
+      <column caption='triage_temperature' datatype='real' name='[Parameter 6]' param-domain-type='range' role='measure' type='quantitative' value='80.555277638819405'>
+        <calculation class='tableau' formula='80.555277638819405' />
+        <range max='110.0' min='50.0' />
+      </column>
+      <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='16.'>
+        <calculation class='tableau' formula='16.' />
+        <range max='60.0' min='10.0' />
+      </column>
+      <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='85.71285642821411'>
+        <calculation class='tableau' formula='85.71285642821411' />
+        <range max='100.0' min='60.0' />
+      </column>
+      <column caption='n_ed_365d' datatype='integer' name='[Parameter 9]' param-domain-type='range' role='measure' type='quantitative' value='0'>
+        <calculation class='tableau' formula='0' />
+        <range max='110' min='0' />
+      </column>
+    </datasource>
+    <datasource caption='data' inline='true' name='federated.0v8vuix0tt3h30186u1j11vm9s2m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ref_data' name='textscan.0dxwl3e1lq4u121e26p2z1799eh6'>
+            <connection class='textscan' directory='C:/RakenduR/Sample-Codes-for-MIMIC-IV/Sample-Codes-for-MIMIC-IV/Benchmark_scripts/ISSS623 Project Data/MIMIC_IV_derived_data' filename='ref_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0dxwl3e1lq4u121e26p2z1799eh6' name='ref_data.csv' table='[ref_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='integer' name='triage_sbp' ordinal='1' />
+            <column datatype='integer' name='triage_dbp' ordinal='2' />
+            <column datatype='integer' name='triage_acuity' ordinal='3' />
+            <column datatype='integer' name='triage_heartrate' ordinal='4' />
+            <column datatype='integer' name='triage_temperature' ordinal='5' />
+            <column datatype='integer' name='triage_resprate' ordinal='6' />
+            <column datatype='integer' name='triage_o2sat' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='boolean' name='outcome_hospitalization' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0dxwl3e1lq4u121e26p2z1799eh6' name='ref_data.csv' table='[ref_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='integer' name='triage_sbp' ordinal='1' />
+            <column datatype='integer' name='triage_dbp' ordinal='2' />
+            <column datatype='integer' name='triage_acuity' ordinal='3' />
+            <column datatype='integer' name='triage_heartrate' ordinal='4' />
+            <column datatype='integer' name='triage_temperature' ordinal='5' />
+            <column datatype='integer' name='triage_resprate' ordinal='6' />
+            <column datatype='integer' name='triage_o2sat' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='boolean' name='outcome_hospitalization' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triage_sbp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[triage_sbp]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>triage_sbp</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triage_dbp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[triage_dbp]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>triage_dbp</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triage_acuity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[triage_acuity]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>triage_acuity</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triage_heartrate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[triage_heartrate]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>triage_heartrate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triage_temperature</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[triage_temperature]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>triage_temperature</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triage_resprate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[triage_resprate]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>triage_resprate</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triage_o2sat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[triage_o2sat]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>triage_o2sat</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>outcome_hospitalization</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[outcome_hospitalization]</local-name>
+            <parent-name>[ref_data.csv]</parent-name>
+            <remote-alias>outcome_hospitalization</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Hosp_Chance' datatype='real' name='[Calculation_1343761538894520322]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SCRIPT_REAL(&quot;return tabpy.query(&apos;Hospitalization_Prediction&apos;,_arg1, _arg2, _arg3, _arg4, _arg5, _arg6, _arg7, _arg8)[&apos;response&apos;]&quot;,&#13;&#10;[Parameters].[Parameter 1],[Calculation_1343761538958200836],[Parameters].[Parameter 4],[Parameters].[Parameter 5],[Parameters].[Parameter 6],[Parameters].[Parameter 7],&#13;&#10;[Parameters].[Parameter 8],[Parameters].[Parameter 9])'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='map' datatype='real' name='[Calculation_1343761538958200836]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Parameters].[Parameter 3] + 2 *[Parameters].[Parameter 10])/3' />
+      </column>
+      <column caption='Bot_Half' datatype='integer' name='[Calculation_1343761538987528201]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MIN(1)' />
+      </column>
+      <column caption='Colored&lt;50%' datatype='real' name='[Calculation_1343761538987696139]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Calculation_1343761538894520322]&lt;0.5&#13;&#10;THEN[Calculation_1343761538894520322]&#13;&#10;ELSE 0.5&#13;&#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='grey&lt;50%' datatype='real' name='[Calculation_1343761538988658700]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF  [Calculation_1343761538894520322] &lt; 0.5&#13;&#10;then 0.5 - [Calculation_1343761538894520322]&#13;&#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='colored&gt;50%' datatype='real' name='[Calculation_1343761538989027341]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if [Calculation_1343761538894520322]&gt;0.5&#13;&#10;THEN [Calculation_1343761538894520322] -0.5&#13;&#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='grey&gt;50%' datatype='real' name='[Calculation_1343761538989297678]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF  [Calculation_1343761538894520322] &gt; 0.5&#13;&#10;THEN 1 - [Calculation_1343761538894520322]&#13;&#10;ELSE 0.5&#13;&#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Pointer1' datatype='real' name='[Calculation_1343761538989895695]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF  [Calculation_1343761538894520322] &lt;= 0.5&#13;&#10;then .005 END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Pointer2' datatype='real' name='[Calculation_1343761538990022672]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF  [Calculation_1343761538894520322] &gt; 0.5&#13;&#10;then .005 END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Dunny_Field' datatype='string' name='[Calculation_1343761538994262034]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&apos;Dummy&apos;' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='ref_data.csv' datatype='table' name='[__tableau_internal_object_id__].[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Outcome Hospitalization' datatype='boolean' name='[outcome_hospitalization]' role='dimension' type='nominal' />
+      <column caption='Triage Acuity' datatype='integer' name='[triage_acuity]' role='measure' type='quantitative' />
+      <column caption='Triage Dbp' datatype='integer' name='[triage_dbp]' role='measure' type='quantitative' />
+      <column caption='Triage Heartrate' datatype='integer' name='[triage_heartrate]' role='measure' type='quantitative' />
+      <column caption='Triage O2Sat' datatype='integer' name='[triage_o2sat]' role='measure' type='quantitative' />
+      <column caption='Triage Resprate' datatype='integer' name='[triage_resprate]' role='measure' type='quantitative' />
+      <column caption='Triage Sbp' datatype='integer' name='[triage_sbp]' role='measure' type='quantitative' />
+      <column caption='Triage Temperature' datatype='integer' name='[triage_temperature]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1343761538994262034]' derivation='None' name='[none:Calculation_1343761538994262034:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_1343761538958200836]' derivation='Sum' name='[sum:Calculation_1343761538958200836:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[triage_acuity]' derivation='Sum' name='[sum:triage_acuity:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[triage_dbp]' derivation='Sum' name='[sum:triage_dbp:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[triage_heartrate]' derivation='Sum' name='[sum:triage_heartrate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[triage_o2sat]' derivation='Sum' name='[sum:triage_o2sat:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[triage_resprate]' derivation='Sum' name='[sum:triage_resprate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[triage_sbp]' derivation='Sum' name='[sum:triage_sbp:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[triage_temperature]' derivation='Sum' name='[sum:triage_temperature:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1343761538894520322]' derivation='User' name='[usr:Calculation_1343761538894520322:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_1343761538987528201]' derivation='User' name='[usr:Calculation_1343761538987528201:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1343761538987696139]' derivation='User' name='[usr:Calculation_1343761538987696139:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+        <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_1343761538988658700]' derivation='User' name='[usr:Calculation_1343761538988658700:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+        <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_1343761538989027341]' derivation='User' name='[usr:Calculation_1343761538989027341:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+        <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_1343761538989027341]' derivation='User' name='[usr:Calculation_1343761538989027341:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='CellInPane' />
+        <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='CellInPane' />
+      </column-instance>
+      <column-instance column='[Calculation_1343761538989297678]' derivation='User' name='[usr:Calculation_1343761538989297678:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+        <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_1343761538989895695]' derivation='User' name='[usr:Calculation_1343761538989895695:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+        <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_1343761538990022672]' derivation='User' name='[usr:Calculation_1343761538990022672:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+        <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+      </column-instance>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:age:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1343761538985750534:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275512619017:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275536093197:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545862161:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538987696139:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989027341:qk:1]&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989895695:qk]&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538990022672:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:triage_dbp:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:triage_o2sat:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:triage_temperature:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275512229893:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538988658700:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989297678:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:triage_acuity:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:triage_resprate:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1343761538958200836:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[__tableau_internal_object_id__].[cnt:ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989027341:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1343761538985799688:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275512246279:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275512627211:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275536109583:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545874451:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:triage_heartrate:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:triage_sbp:qk]&quot;</bucket>
+            </map>
+            <map to='#ffffff'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]&quot;</bucket>
+            </map>
+            <map to='#ffffff'>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538987528201:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]&#10;[none:Calculation_1343761538994262034:nk]' type='palette'>
+            <map to='#000000'>
+              <multibucket>
+                <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989895695:qk]&quot;</bucket>
+                <bucket>&quot;Dummy&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#000000'>
+              <multibucket>
+                <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538990022672:qk]&quot;</bucket>
+                <bucket>&quot;Dummy&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffffff'>
+              <multibucket>
+                <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]&quot;</bucket>
+                <bucket>&quot;Dummy&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffffff'>
+              <multibucket>
+                <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538987528201:qk]&quot;</bucket>
+                <bucket>&quot;Dummy&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffffff'>
+              <multibucket>
+                <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538987696139:qk]&quot;</bucket>
+                <bucket>&quot;Dummy&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffffff'>
+              <multibucket>
+                <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538988658700:qk]&quot;</bucket>
+                <bucket>&quot;Dummy&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffffff'>
+              <multibucket>
+                <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989027341:qk:1]&quot;</bucket>
+                <bucket>&quot;Dummy&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffffff'>
+              <multibucket>
+                <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989297678:qk]&quot;</bucket>
+                <bucket>&quot;Dummy&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Singapore&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='triage_dbp' datatype='real' name='[Parameter 10]' param-domain-type='list' role='measure' type='quantitative' value='49.0'>
+          <calculation class='tableau' formula='49.0' />
+        </column>
+        <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='43.0'>
+          <calculation class='tableau' formula='43.0' />
+        </column>
+        <column caption='triage_sbp' datatype='real' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='120.0'>
+          <calculation class='tableau' formula='120.0' />
+        </column>
+        <column caption='triage_acuity' datatype='integer' name='[Parameter 4]' param-domain-type='range' role='measure' type='quantitative' value='1'>
+          <calculation class='tableau' formula='1' />
+          <range granularity='1' max='5' min='1' />
+        </column>
+        <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='66'>
+          <calculation class='tableau' formula='66' />
+          <range max='250' min='30' />
+        </column>
+        <column caption='triage_temperature' datatype='real' name='[Parameter 6]' param-domain-type='range' role='measure' type='quantitative' value='80.555277638819405'>
+          <calculation class='tableau' formula='80.555277638819405' />
+          <range max='110.0' min='50.0' />
+        </column>
+        <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='16.'>
+          <calculation class='tableau' formula='16.' />
+          <range max='60.0' min='10.0' />
+        </column>
+        <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='85.71285642821411'>
+          <calculation class='tableau' formula='85.71285642821411' />
+          <range max='100.0' min='60.0' />
+        </column>
+        <column caption='n_ed_365d' datatype='integer' name='[Parameter 9]' param-domain-type='range' role='measure' type='quantitative' value='0'>
+          <calculation class='tableau' formula='0' />
+          <range max='110' min='0' />
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ref_data.csv' id='ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326'>
+            <properties context=''>
+              <relation connection='textscan.0dxwl3e1lq4u121e26p2z1799eh6' name='ref_data.csv' table='[ref_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='integer' name='triage_sbp' ordinal='1' />
+                  <column datatype='integer' name='triage_dbp' ordinal='2' />
+                  <column datatype='integer' name='triage_acuity' ordinal='3' />
+                  <column datatype='integer' name='triage_heartrate' ordinal='4' />
+                  <column datatype='integer' name='triage_temperature' ordinal='5' />
+                  <column datatype='integer' name='triage_resprate' ordinal='6' />
+                  <column datatype='integer' name='triage_o2sat' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='boolean' name='outcome_hospitalization' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.0v8vuix0tt3h30186u1j11vm9s2m' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='triage_dbp' datatype='real' name='[Parameter 10]' param-domain-type='list' role='measure' type='quantitative' value='49.0'>
+              <calculation class='tableau' formula='49.0' />
+            </column>
+            <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='43.0'>
+              <calculation class='tableau' formula='43.0' />
+            </column>
+            <column caption='triage_sbp' datatype='real' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='120.0'>
+              <calculation class='tableau' formula='120.0' />
+            </column>
+            <column caption='triage_acuity' datatype='integer' name='[Parameter 4]' param-domain-type='range' role='measure' type='quantitative' value='1'>
+              <calculation class='tableau' formula='1' />
+              <range granularity='1' max='5' min='1' />
+            </column>
+            <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='66'>
+              <calculation class='tableau' formula='66' />
+              <range max='250' min='30' />
+            </column>
+            <column caption='triage_temperature' datatype='real' name='[Parameter 6]' param-domain-type='range' role='measure' type='quantitative' value='80.555277638819405'>
+              <calculation class='tableau' formula='80.555277638819405' />
+              <range max='110.0' min='50.0' />
+            </column>
+            <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='16.'>
+              <calculation class='tableau' formula='16.' />
+              <range max='60.0' min='10.0' />
+            </column>
+            <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='85.71285642821411'>
+              <calculation class='tableau' formula='85.71285642821411' />
+              <range max='100.0' min='60.0' />
+            </column>
+            <column caption='n_ed_365d' datatype='integer' name='[Parameter 9]' param-domain-type='range' role='measure' type='quantitative' value='0'>
+              <calculation class='tableau' formula='0' />
+              <range max='110' min='0' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0v8vuix0tt3h30186u1j11vm9s2m'>
+            <column caption='Hosp_Chance' datatype='real' name='[Calculation_1343761538894520322]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SCRIPT_REAL(&quot;return tabpy.query(&apos;Hospitalization_Prediction&apos;,_arg1, _arg2, _arg3, _arg4, _arg5, _arg6, _arg7, _arg8)[&apos;response&apos;]&quot;,&#13;&#10;[Parameters].[Parameter 1],[Calculation_1343761538958200836],[Parameters].[Parameter 4],[Parameters].[Parameter 5],[Parameters].[Parameter 6],[Parameters].[Parameter 7],&#13;&#10;[Parameters].[Parameter 8],[Parameters].[Parameter 9])'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='map' datatype='real' name='[Calculation_1343761538958200836]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Parameters].[Parameter 3] + 2 *[Parameters].[Parameter 10])/3' />
+            </column>
+            <column caption='Bot_Half' datatype='integer' name='[Calculation_1343761538987528201]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column caption='Colored&lt;50%' datatype='real' name='[Calculation_1343761538987696139]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Calculation_1343761538894520322]&lt;0.5&#13;&#10;THEN[Calculation_1343761538894520322]&#13;&#10;ELSE 0.5&#13;&#10;END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='grey&lt;50%' datatype='real' name='[Calculation_1343761538988658700]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF  [Calculation_1343761538894520322] &lt; 0.5&#13;&#10;then 0.5 - [Calculation_1343761538894520322]&#13;&#10;END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='colored&gt;50%' datatype='real' name='[Calculation_1343761538989027341]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [Calculation_1343761538894520322]&gt;0.5&#13;&#10;THEN [Calculation_1343761538894520322] -0.5&#13;&#10;END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='grey&gt;50%' datatype='real' name='[Calculation_1343761538989297678]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF  [Calculation_1343761538894520322] &gt; 0.5&#13;&#10;THEN 1 - [Calculation_1343761538894520322]&#13;&#10;ELSE 0.5&#13;&#10;END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Pointer1' datatype='real' name='[Calculation_1343761538989895695]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF  [Calculation_1343761538894520322] &lt;= 0.5&#13;&#10;then .005 END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Pointer2' datatype='real' name='[Calculation_1343761538990022672]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF  [Calculation_1343761538894520322] &gt; 0.5&#13;&#10;then .005 END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Dunny_Field' datatype='string' name='[Calculation_1343761538994262034]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&apos;Dummy&apos;' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1515461275545862161]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1515461275545874451]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column-instance column='[Calculation_1343761538994262034]' derivation='None' name='[none:Calculation_1343761538994262034:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1515461275545862161]' derivation='Sum' name='[sum:Calculation_1515461275545862161:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1515461275545874451]' derivation='Sum' name='[sum:Calculation_1515461275545874451:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1343761538894520322]' derivation='User' name='[usr:Calculation_1343761538894520322:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1343761538987528201]' derivation='User' name='[usr:Calculation_1343761538987528201:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1343761538987696139]' derivation='User' name='[usr:Calculation_1343761538987696139:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+              <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1343761538988658700]' derivation='User' name='[usr:Calculation_1343761538988658700:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+              <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1343761538989027341]' derivation='User' name='[usr:Calculation_1343761538989027341:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+              <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1343761538989297678]' derivation='User' name='[usr:Calculation_1343761538989297678:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+              <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1343761538989895695]' derivation='User' name='[usr:Calculation_1343761538989895695:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+              <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1343761538990022672]' derivation='User' name='[usr:Calculation_1343761538990022672:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+              <table-calc field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Calculation_1343761538894520322]' ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989027341:qk:1]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538990022672:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989297678:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538987528201:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538987696139:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989895695:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538988658700:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989027341:qk:1]&quot;</bucket>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538990022672:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989297678:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538987528201:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538987696139:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538989895695:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538988658700:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0v8vuix0tt3h30186u1j11vm9s2m].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545874451:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='tick-color' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='#b07aa1' />
+            <format attr='display' class='0' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545862161:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545874451:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#55aaff' />
+            <format attr='text-orientation' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='0' />
+            <format attr='text-align' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='bottom' />
+            <format attr='wrap' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='on' />
+            <format attr='text-format' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[:Measure Names]' />
+              <wedge-size column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4832596778869629' />
+                <format attr='mark-color' value='#55aaff' />
+                <format attr='mark-transparency' value='254' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-range-max' value='false' />
+                <format attr='mark-labels-range-min' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545862161:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[:Measure Names]' />
+              <wedge-size column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5712155103683472' />
+                <format attr='mark-color' value='#55aaff' />
+                <format attr='mark-transparency' value='254' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-range-max' value='false' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545874451:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[:Measure Names]' />
+              <wedge-size column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[Multiple Values]' />
+              <color column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[none:Calculation_1343761538994262034:nk]' />
+              <text column='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='0' />
+                <format attr='text-align' value='right' />
+                <format attr='vertical-align' value='top' />
+                <format attr='wrap' value='off' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#55aaff' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-transparency' value='254' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[:Measure Names]' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-range-max' value='false' />
+                <format attr='mark-labels-range-min' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545862161:qk] + [federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545874451:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{6C8938F5-992B-4DCE-BAA7-ED5F6A4EA443}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='9' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{48875DAE-BC35-4E88-AD56-C682E247C2D0}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{407ABAB4-BD5A-4FDD-8AD2-9221F55A11D6}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card size='43' type='pages' />
+            <card size='59' type='filters' />
+            <card size='327' type='marks' />
+            <card size='204' type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card mode='slider' param='[Parameters].[Parameter 1]' type='parameter' />
+            <card mode='slider' param='[Parameters].[Parameter 9]' type='parameter' />
+            <card mode='slider' param='[Parameters].[Parameter 4]' type='parameter' />
+            <card mode='slider' param='[Parameters].[Parameter 10]' type='parameter' />
+            <card mode='slider' param='[Parameters].[Parameter 5]' type='parameter' />
+            <card mode='slider' param='[Parameters].[Parameter 8]' type='parameter' />
+            <card mode='slider' param='[Parameters].[Parameter 7]' type='parameter' />
+            <card mode='slider' param='[Parameters].[Parameter 6]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{AC46C885-7725-4E57-A3CA-E8E8F5259548}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAHRUlEQVR4nO3bW28cZwHG8Wdm16e1s+tjHOQmDTkQOzQhrYhdEA0IEKitEKK54RK+QMUX
+      4YYvwAUg9Q6kCEFLkQChQCFVaUMJSUlccqpjx4kd727W6515uZgkpWSdZIkP8T7/39Vq3vEc
+      7PnvvrMjRyGEIMBUvNkHAGym/N0X8/PzyufzD1oXaDv3rvh8Pq9SqbSZxwJsOKZAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsJbf7APAkyOEoEuzt3Tm33OaW6hqoVzTQrmmbYVODZcKGiz2aHzXsHaNlpSL2+O9kwDM
+      hRB0cXZRb566oFNnr2r2ZkVJGlZdP44i7Rjq03P7P6VvHN2rXaOlDTzatReFEIIkLS4uqlTa
+      2ieDRxdC0EK5pp/95rR+/+6HWmmkLW+jIx/rhcNP67tffUYj/QVFUbQOR7q+CMBQCEFv/PW8
+      fvyrv6lWbzz29vK5WN9/8Yheen7/louAAMzUG4l+8vq7+uWfP1D6gKlOqyJJL0/u1vde/rzy
+      +a0zs26POxk8knoj0Q9fO6kTJ8+t6cUvSUrrKl88rdOn3lKaJGu77XW0dVLFY0lD0E/feE9v
+      nbny0HU7crF2DG3T9v6Cir1dqtRWdO1GWVeuL6mR3H+vEIVEU9uXdXDngK5fm9G599/TgUNH
+      tsR0iAAMhBD0u3c+1ImTZx+43kh/Qd/64gEdHR/TSH/hE191hhD00fyS3vlgRr/44z91fbF6
+      ZyDV4YGqnt09cO+CvzR9QYW+bdq1Z9+6ndNa4R7AwOxCRT/40a9VXV5pOt6Ri/WdYxN65diE
+      ujoe/p64XG/oxJ/O6bXfntbewpK+Nl5S/D/PBeJcTs9/5evq7etbk3NYL3wCGPj5H86sevEX
+      ujr06vEpTU6MPfKUpaszr1deGFd3fU7dy11Sev+cP00STZ87o2eeO/pYx77euAlucx/NL+nN
+      ty80HcvFkV49PqWpg0+1PF+fnp7WsakjenbqC4pWeSo8c/mSyku3Wj7mjUQAbe71v5xf9SHX
+      8S8f1OTEWMvbvHTpogYG+lUqlTQ0sl17D0w0XS+EoMvTzeN7UhBAG0uSVG+fvdp0bKiY3fC2
+      +s4/Pz+vQqGgoaEhSVIURdq5Z596enubrn/92swT/bUoAbSxmZvZV5fNfPtLB9TX09nS9srl
+      JcVxpOHh4U8sz+fz2rVnf9OfuV2tqFIpt7SfjUQAbez96Tml4f4HXpGkyfHWpj71el31el2D
+      g4NNx3eMrX4TfXNurqV9bSQCaGM3bt1uunxspKiRgeZTlmZWVlZUq91e9eKXpM6ubvUVm3+N
+      vrxce+R9bTQCaGM3y80D2D7Qq1Zm/nEcqVgsPvR+oadQaLq8drvawt421r3nAI1GQ9VqVXee
+      iymKIsVxrOS/bmDuPuxI0/SBy3K5nEII9y1L0/S+7T9sWRzHiqJoTY7jUfe52rk/znH8P+f+
+      OH+DOI61e7Skb07uvbcsTYMaSarP7Bxu6eb37rk/TLF/QLerVUkf/85DCEqSRJVK5Yn8ffEk
+      GNaYAsEaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAa/xTfpkKQag0pDVJHLvsfgJVU
+      6slLUZSNLydSPpZy0cev40haSaTOnJSEbFk7I4A2NlOWFmpSI5UGe7IgJOmz27Oxy7ekeiJ9
+      ekC6cud1sUu6tSxNjEizFWl8+MH72OravG9fUSTt7s/exT+3Iwtgrir1d2fjsxXp0KhU6MhC
+      ODwq9XVmkXTnpfM3snhmK5t7HuuNANpYrZH9gTtiqdQtTY5JV5eyaVFnLhtPQjYtqjWyT4pD
+      o1Jvp9SVk54uZZ8U7YwpUBu7O5UJkv4xl83t9w5K/7oh7RuU/j4rDfVITxWz14M92YXf25GN
+      n74m7RnY7LNYX/xDDKwxBYI1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoC1/wCoOE+WSzGNSwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
