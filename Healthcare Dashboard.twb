@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20221.22.0324.2209                               -->
-<workbook original-version='18.1' source-build='2022.1.0 (20221.22.0324.2209)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2022.1.0 (20221.22.0324.2209)' source-platform='win' version='18.1' xml:base='https://prod-apnortheast-a.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
@@ -14,7 +14,10 @@
     <SheetIdentifierTracking />
     <SortTagCleanup />
     <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='HealthcareDashboard' path='/t/rakendudataviz/workbooks' revision='1.1' site='rakendudataviz' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -213,8 +216,8 @@
           <member value='200.0' />
         </members>
       </column>
-      <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='43.0'>
-        <calculation class='tableau' formula='43.0' />
+      <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='41.0'>
+        <calculation class='tableau' formula='41.0' />
         <members>
           <member value='18.0' />
           <member value='19.0' />
@@ -521,20 +524,20 @@
         <calculation class='tableau' formula='1' />
         <range granularity='1' max='5' min='1' />
       </column>
-      <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='66'>
-        <calculation class='tableau' formula='66' />
+      <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='93'>
+        <calculation class='tableau' formula='93' />
         <range max='250' min='30' />
       </column>
       <column caption='triage_temperature' datatype='real' name='[Parameter 6]' param-domain-type='range' role='measure' type='quantitative' value='80.555277638819405'>
         <calculation class='tableau' formula='80.555277638819405' />
         <range max='110.0' min='50.0' />
       </column>
-      <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='16.'>
-        <calculation class='tableau' formula='16.' />
+      <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='54.047023511755874'>
+        <calculation class='tableau' formula='54.047023511755874' />
         <range max='60.0' min='10.0' />
       </column>
-      <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='85.71285642821411'>
-        <calculation class='tableau' formula='85.71285642821411' />
+      <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='100.'>
+        <calculation class='tableau' formula='100.' />
         <range max='100.0' min='60.0' />
       </column>
       <column caption='n_ed_365d' datatype='integer' name='[Parameter 9]' param-domain-type='range' role='measure' type='quantitative' value='0'>
@@ -546,7 +549,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='ref_data' name='textscan.0dxwl3e1lq4u121e26p2z1799eh6'>
-            <connection class='textscan' directory='C:/RakenduR/Sample-Codes-for-MIMIC-IV/Sample-Codes-for-MIMIC-IV/Benchmark_scripts/ISSS623 Project Data/MIMIC_IV_derived_data' filename='ref_data.csv' password='' server='' />
+            <connection class='textscan' directory='C:/RakenduR/Sample-Codes-for-MIMIC-IV/Sample-Codes-for-MIMIC-IV/Benchmark_scripts/ISSS623 Project Data/MIMIC_IV_derived_data' filename='ref_data.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0dxwl3e1lq4u121e26p2z1799eh6' name='ref_data.csv' table='[ref_data#csv]' type='table'>
@@ -604,7 +607,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>triage_sbp</remote-name>
@@ -616,7 +618,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>triage_dbp</remote-name>
@@ -628,7 +629,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>triage_acuity</remote-name>
@@ -640,7 +640,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>triage_heartrate</remote-name>
@@ -652,7 +651,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>triage_temperature</remote-name>
@@ -664,7 +662,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>triage_resprate</remote-name>
@@ -676,7 +673,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>triage_o2sat</remote-name>
@@ -688,7 +684,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>F9</remote-name>
@@ -704,7 +699,6 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>outcome_hospitalization</remote-name>
@@ -716,7 +710,6 @@
             <local-type>boolean</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ref_data.csv_F2DF8FE7C81E49709CB2DFB25E474326]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -969,8 +962,8 @@
         <column caption='triage_dbp' datatype='real' name='[Parameter 10]' param-domain-type='list' role='measure' type='quantitative' value='49.0'>
           <calculation class='tableau' formula='49.0' />
         </column>
-        <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='43.0'>
-          <calculation class='tableau' formula='43.0' />
+        <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='41.0'>
+          <calculation class='tableau' formula='41.0' />
         </column>
         <column caption='triage_sbp' datatype='real' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='120.0'>
           <calculation class='tableau' formula='120.0' />
@@ -979,20 +972,20 @@
           <calculation class='tableau' formula='1' />
           <range granularity='1' max='5' min='1' />
         </column>
-        <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='66'>
-          <calculation class='tableau' formula='66' />
+        <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='93'>
+          <calculation class='tableau' formula='93' />
           <range max='250' min='30' />
         </column>
         <column caption='triage_temperature' datatype='real' name='[Parameter 6]' param-domain-type='range' role='measure' type='quantitative' value='80.555277638819405'>
           <calculation class='tableau' formula='80.555277638819405' />
           <range max='110.0' min='50.0' />
         </column>
-        <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='16.'>
-          <calculation class='tableau' formula='16.' />
+        <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='54.047023511755874'>
+          <calculation class='tableau' formula='54.047023511755874' />
           <range max='60.0' min='10.0' />
         </column>
-        <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='85.71285642821411'>
-          <calculation class='tableau' formula='85.71285642821411' />
+        <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='100.'>
+          <calculation class='tableau' formula='100.' />
           <range max='100.0' min='60.0' />
         </column>
         <column caption='n_ed_365d' datatype='integer' name='[Parameter 9]' param-domain-type='range' role='measure' type='quantitative' value='0'>
@@ -1025,7 +1018,7 @@
     </datasource>
   </datasources>
   <worksheets>
-    <worksheet name='Sheet 2'>
+    <worksheet name='Hospitalization'>
       <table>
         <view>
           <datasources>
@@ -1036,8 +1029,8 @@
             <column caption='triage_dbp' datatype='real' name='[Parameter 10]' param-domain-type='list' role='measure' type='quantitative' value='49.0'>
               <calculation class='tableau' formula='49.0' />
             </column>
-            <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='43.0'>
-              <calculation class='tableau' formula='43.0' />
+            <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='41.0'>
+              <calculation class='tableau' formula='41.0' />
             </column>
             <column caption='triage_sbp' datatype='real' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='120.0'>
               <calculation class='tableau' formula='120.0' />
@@ -1046,20 +1039,20 @@
               <calculation class='tableau' formula='1' />
               <range granularity='1' max='5' min='1' />
             </column>
-            <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='66'>
-              <calculation class='tableau' formula='66' />
+            <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='93'>
+              <calculation class='tableau' formula='93' />
               <range max='250' min='30' />
             </column>
             <column caption='triage_temperature' datatype='real' name='[Parameter 6]' param-domain-type='range' role='measure' type='quantitative' value='80.555277638819405'>
               <calculation class='tableau' formula='80.555277638819405' />
               <range max='110.0' min='50.0' />
             </column>
-            <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='16.'>
-              <calculation class='tableau' formula='16.' />
+            <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='54.047023511755874'>
+              <calculation class='tableau' formula='54.047023511755874' />
               <range max='60.0' min='10.0' />
             </column>
-            <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='85.71285642821411'>
-              <calculation class='tableau' formula='85.71285642821411' />
+            <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='100.'>
+              <calculation class='tableau' formula='100.' />
               <range max='100.0' min='60.0' />
             </column>
             <column caption='n_ed_365d' datatype='integer' name='[Parameter 9]' param-domain-type='range' role='measure' type='quantitative' value='0'>
@@ -1180,17 +1173,53 @@
         <style>
           <style-rule element='axis'>
             <encoding attr='space' class='0' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545874451:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
-            <format attr='tick-color' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='#b07aa1' />
             <format attr='display' class='0' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545862161:qk]' scope='rows' value='false' />
             <format attr='display' class='0' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[sum:Calculation_1515461275545874451:qk]' scope='rows' value='false' />
+            <format attr='tick-color' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='#b07aa1' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
           </style-rule>
           <style-rule element='cell'>
-            <format attr='color' value='#55aaff' />
             <format attr='text-orientation' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='0' />
             <format attr='text-align' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='center' />
             <format attr='vertical-align' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='bottom' />
             <format attr='wrap' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='on' />
             <format attr='text-format' field='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[usr:Calculation_1343761538894520322:qk]' value='p0.00%' />
+            <format attr='color' value='#5555ff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='rows' value='0' />
+            <format attr='band-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
           </style-rule>
         </style>
         <panes>
@@ -1207,14 +1236,14 @@
             <style>
               <style-rule element='mark'>
                 <format attr='size' value='1.4832596778869629' />
-                <format attr='mark-color' value='#55aaff' />
-                <format attr='mark-transparency' value='254' />
-                <format attr='has-stroke' value='true' />
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-mode' value='range' />
                 <format attr='mark-labels-cull' value='true' />
                 <format attr='mark-labels-range-max' value='false' />
                 <format attr='mark-labels-range-min' value='false' />
+                <format attr='mark-color' value='#55aaff' />
+                <format attr='mark-transparency' value='254' />
+                <format attr='has-stroke' value='true' />
               </style-rule>
             </style>
           </pane>
@@ -1231,15 +1260,15 @@
             <style>
               <style-rule element='mark'>
                 <format attr='size' value='1.5712155103683472' />
-                <format attr='mark-color' value='#55aaff' />
-                <format attr='mark-transparency' value='254' />
-                <format attr='has-stroke' value='true' />
                 <format attr='mark-labels-mode' value='range' />
                 <format attr='mark-labels-cull' value='true' />
                 <format attr='mark-labels-range-max' value='false' />
                 <format attr='mark-labels-range-min' value='true' />
                 <format attr='mark-labels-range-scope' value='pane' />
                 <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#55aaff' />
+                <format attr='mark-transparency' value='254' />
+                <format attr='has-stroke' value='true' />
               </style-rule>
             </style>
           </pane>
@@ -1264,13 +1293,10 @@
               </style-rule>
               <style-rule element='datalabel'>
                 <format attr='color-mode' value='user' />
-                <format attr='color' value='#55aaff' />
+                <format attr='color' value='#000000' />
               </style-rule>
               <style-rule element='mark'>
                 <format attr='size' value='1' />
-                <format attr='mark-color' value='#ffffff' />
-                <format attr='mark-transparency' value='254' />
-                <format attr='has-stroke' value='true' />
                 <format attr='mark-labels-range-scope' value='pane' />
                 <format attr='mark-labels-range-field' value='[federated.0v8vuix0tt3h30186u1j11vm9s2m].[:Measure Names]' />
                 <format attr='mark-labels-show' value='true' />
@@ -1278,6 +1304,9 @@
                 <format attr='mark-labels-cull' value='true' />
                 <format attr='mark-labels-range-max' value='false' />
                 <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-transparency' value='254' />
+                <format attr='has-stroke' value='true' />
               </style-rule>
             </style>
           </pane>
@@ -1289,16 +1318,504 @@
     </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
-      <style />
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Healthcare Analytics'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#00000000' />
+        </style-rule>
+      </style>
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
-      <zones />
+      <datasources>
+        <datasource name='Parameters' />
+      </datasources>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='triage_dbp' datatype='real' name='[Parameter 10]' param-domain-type='list' role='measure' type='quantitative' value='49.0'>
+          <calculation class='tableau' formula='49.0' />
+          <members>
+            <member value='20.0' />
+            <member value='21.0' />
+            <member value='22.0' />
+            <member value='23.0' />
+            <member value='24.0' />
+            <member value='25.0' />
+            <member value='26.0' />
+            <member value='27.0' />
+            <member value='28.0' />
+            <member value='29.0' />
+            <member value='30.0' />
+            <member value='31.0' />
+            <member value='32.0' />
+            <member value='33.0' />
+            <member value='34.0' />
+            <member value='35.0' />
+            <member value='36.0' />
+            <member value='37.0' />
+            <member value='38.0' />
+            <member value='39.0' />
+            <member value='40.0' />
+            <member value='41.0' />
+            <member value='42.0' />
+            <member value='43.0' />
+            <member value='44.0' />
+            <member value='45.0' />
+            <member value='46.0' />
+            <member value='47.0' />
+            <member value='48.0' />
+            <member value='49.0' />
+            <member value='50.0' />
+            <member value='51.0' />
+            <member value='52.0' />
+            <member value='53.0' />
+            <member value='54.0' />
+            <member value='55.0' />
+            <member value='56.0' />
+            <member value='57.0' />
+            <member value='58.0' />
+            <member value='59.0' />
+            <member value='60.0' />
+            <member value='61.0' />
+            <member value='62.0' />
+            <member value='63.0' />
+            <member value='64.0' />
+            <member value='65.0' />
+            <member value='66.0' />
+            <member value='67.0' />
+            <member value='68.0' />
+            <member value='69.0' />
+            <member value='70.0' />
+            <member value='71.0' />
+            <member value='72.0' />
+            <member value='73.0' />
+            <member value='74.0' />
+            <member value='75.0' />
+            <member value='76.0' />
+            <member value='77.0' />
+            <member value='78.0' />
+            <member value='79.0' />
+            <member value='80.0' />
+            <member value='81.0' />
+            <member value='82.0' />
+            <member value='83.0' />
+            <member value='84.0' />
+            <member value='85.0' />
+            <member value='86.0' />
+            <member value='87.0' />
+            <member value='88.0' />
+            <member value='89.0' />
+            <member value='90.0' />
+            <member value='91.0' />
+            <member value='92.0' />
+            <member value='93.0' />
+            <member value='94.0' />
+            <member value='95.0' />
+            <member value='96.0' />
+            <member value='97.0' />
+            <member value='98.0' />
+            <member value='99.0' />
+            <member value='100.0' />
+            <member value='101.0' />
+            <member value='102.0' />
+            <member value='103.0' />
+            <member value='104.0' />
+            <member value='105.0' />
+            <member value='106.0' />
+            <member value='107.0' />
+            <member value='108.0' />
+            <member value='109.0' />
+            <member value='110.0' />
+            <member value='111.0' />
+            <member value='112.0' />
+            <member value='113.0' />
+            <member value='114.0' />
+            <member value='115.0' />
+            <member value='116.0' />
+            <member value='117.0' />
+            <member value='118.0' />
+            <member value='119.0' />
+            <member value='120.0' />
+            <member value='121.0' />
+            <member value='122.0' />
+            <member value='123.0' />
+            <member value='124.0' />
+            <member value='125.0' />
+            <member value='126.0' />
+            <member value='127.0' />
+            <member value='128.0' />
+            <member value='129.0' />
+            <member value='130.0' />
+            <member value='131.0' />
+            <member value='132.0' />
+            <member value='133.0' />
+            <member value='134.0' />
+            <member value='135.0' />
+            <member value='136.0' />
+            <member value='137.0' />
+            <member value='138.0' />
+            <member value='139.0' />
+            <member value='140.0' />
+            <member value='141.0' />
+            <member value='142.0' />
+            <member value='143.0' />
+            <member value='144.0' />
+            <member value='145.0' />
+            <member value='146.0' />
+            <member value='147.0' />
+            <member value='148.0' />
+            <member value='149.0' />
+            <member value='150.0' />
+            <member value='151.0' />
+            <member value='152.0' />
+            <member value='153.0' />
+            <member value='154.0' />
+            <member value='155.0' />
+            <member value='156.0' />
+            <member value='157.0' />
+            <member value='158.0' />
+            <member value='159.0' />
+            <member value='160.0' />
+            <member value='161.0' />
+            <member value='162.0' />
+            <member value='163.0' />
+            <member value='164.0' />
+            <member value='165.0' />
+            <member value='166.0' />
+            <member value='167.0' />
+            <member value='168.0' />
+            <member value='169.0' />
+            <member value='170.0' />
+            <member value='171.0' />
+            <member value='172.0' />
+            <member value='173.0' />
+            <member value='174.0' />
+            <member value='175.0' />
+            <member value='176.0' />
+            <member value='177.0' />
+            <member value='178.0' />
+            <member value='179.0' />
+            <member value='180.0' />
+            <member value='181.0' />
+            <member value='182.0' />
+            <member value='183.0' />
+            <member value='184.0' />
+            <member value='185.0' />
+            <member value='186.0' />
+            <member value='187.0' />
+            <member value='188.0' />
+            <member value='189.0' />
+            <member value='190.0' />
+            <member value='191.0' />
+            <member value='192.0' />
+            <member value='193.0' />
+            <member value='194.0' />
+            <member value='195.0' />
+            <member value='196.0' />
+            <member value='197.0' />
+            <member value='198.0' />
+            <member value='199.0' />
+            <member value='200.0' />
+          </members>
+        </column>
+        <column caption='age' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='41.0'>
+          <calculation class='tableau' formula='41.0' />
+          <members>
+            <member value='18.0' />
+            <member value='19.0' />
+            <member value='20.0' />
+            <member value='21.0' />
+            <member value='22.0' />
+            <member value='23.0' />
+            <member value='24.0' />
+            <member value='25.0' />
+            <member value='26.0' />
+            <member value='27.0' />
+            <member value='28.0' />
+            <member value='29.0' />
+            <member value='30.0' />
+            <member value='31.0' />
+            <member value='32.0' />
+            <member value='33.0' />
+            <member value='34.0' />
+            <member value='35.0' />
+            <member value='36.0' />
+            <member value='37.0' />
+            <member value='38.0' />
+            <member value='39.0' />
+            <member value='40.0' />
+            <member value='41.0' />
+            <member value='42.0' />
+            <member value='43.0' />
+            <member value='44.0' />
+            <member value='45.0' />
+            <member value='46.0' />
+            <member value='47.0' />
+            <member value='48.0' />
+            <member value='49.0' />
+            <member value='50.0' />
+            <member value='51.0' />
+            <member value='52.0' />
+            <member value='53.0' />
+            <member value='54.0' />
+            <member value='55.0' />
+            <member value='56.0' />
+            <member value='57.0' />
+            <member value='58.0' />
+            <member value='59.0' />
+            <member value='60.0' />
+            <member value='61.0' />
+            <member value='62.0' />
+            <member value='63.0' />
+            <member value='64.0' />
+            <member value='65.0' />
+            <member value='66.0' />
+            <member value='67.0' />
+            <member value='68.0' />
+            <member value='69.0' />
+            <member value='70.0' />
+            <member value='71.0' />
+            <member value='72.0' />
+            <member value='73.0' />
+            <member value='74.0' />
+            <member value='75.0' />
+            <member value='76.0' />
+            <member value='77.0' />
+            <member value='78.0' />
+            <member value='79.0' />
+            <member value='80.0' />
+            <member value='81.0' />
+            <member value='82.0' />
+            <member value='83.0' />
+            <member value='84.0' />
+            <member value='85.0' />
+            <member value='86.0' />
+            <member value='87.0' />
+            <member value='88.0' />
+            <member value='89.0' />
+            <member value='90.0' />
+            <member value='91.0' />
+            <member value='92.0' />
+            <member value='93.0' />
+            <member value='94.0' />
+            <member value='95.0' />
+            <member value='96.0' />
+            <member value='97.0' />
+            <member value='98.0' />
+            <member value='99.0' />
+            <member value='100.0' />
+            <member value='101.0' />
+            <member value='102.0' />
+            <member value='103.0' />
+            <member value='104.' />
+            <member value='105.' />
+            <member value='106.' />
+            <member value='107.' />
+            <member value='108.' />
+            <member value='109.' />
+            <member value='110.' />
+          </members>
+        </column>
+        <column caption='triage_acuity' datatype='integer' name='[Parameter 4]' param-domain-type='range' role='measure' type='quantitative' value='1'>
+          <calculation class='tableau' formula='1' />
+          <range granularity='1' max='5' min='1' />
+        </column>
+        <column caption='triage_heartrate' datatype='integer' name='[Parameter 5]' param-domain-type='range' role='measure' type='quantitative' value='93'>
+          <calculation class='tableau' formula='93' />
+          <range max='250' min='30' />
+        </column>
+        <column caption='triage_temperature' datatype='real' name='[Parameter 6]' param-domain-type='range' role='measure' type='quantitative' value='80.555277638819405'>
+          <calculation class='tableau' formula='80.555277638819405' />
+          <range max='110.0' min='50.0' />
+        </column>
+        <column caption='triage_resprate' datatype='real' name='[Parameter 7]' param-domain-type='range' role='measure' type='quantitative' value='54.047023511755874'>
+          <calculation class='tableau' formula='54.047023511755874' />
+          <range max='60.0' min='10.0' />
+        </column>
+        <column caption='triage_o2sat' datatype='real' name='[Parameter 8]' param-domain-type='range' role='measure' type='quantitative' value='100.'>
+          <calculation class='tableau' formula='100.' />
+          <range max='100.0' min='60.0' />
+        </column>
+        <column caption='n_ed_365d' datatype='integer' name='[Parameter 9]' param-domain-type='range' role='measure' type='quantitative' value='0'>
+          <calculation class='tableau' formula='0' />
+          <range max='110' min='0' />
+        </column>
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='17' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='15' type-v2='layout-basic' w='98400' x='800' y='1000' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='97250' id='26' is-scaled='1' param='C:/Users/raken/Downloads/tab bg_1.jpg' type-v2='bitmap' w='46800' x='-200' y='3375' />
+        <zone h='34875' id='13' name='Hospitalization' w='37700' x='4900' y='28000' />
+        <zone fixed-size='431' h='84000' id='16' is-fixed='true' param='vert' type-v2='layout-flow' w='46200' x='47000' y='9875'>
+          <zone h='10375' id='18' mode='slider' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='46200' x='47000' y='9875'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10375' id='19' mode='slider' param='[Parameters].[Parameter 9]' type-v2='paramctrl' w='46200' x='47000' y='20250'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10375' id='20' mode='slider' param='[Parameters].[Parameter 4]' type-v2='paramctrl' w='46200' x='47000' y='30625'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10375' id='21' mode='slider' param='[Parameters].[Parameter 10]' type-v2='paramctrl' w='46200' x='47000' y='41000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10375' id='22' mode='slider' param='[Parameters].[Parameter 5]' type-v2='paramctrl' w='46200' x='47000' y='51375'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10375' id='23' mode='slider' param='[Parameters].[Parameter 8]' type-v2='paramctrl' w='46200' x='47000' y='61750'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10375' id='24' mode='slider' param='[Parameters].[Parameter 7]' type-v2='paramctrl' w='46200' x='47000' y='72125'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10375' id='25' mode='slider' param='[Parameters].[Parameter 6]' type-v2='paramctrl' w='46200' x='47000' y='82500'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='9' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='33' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='97250' id='26' is-fixed='true' is-scaled='1' param='C:/Users/raken/Downloads/tab bg_1.jpg' type-v2='bitmap' w='46800' x='-200' y='3375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='18' mode='slider' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='46200' x='47000' y='9875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='19' mode='slider' param='[Parameters].[Parameter 9]' type-v2='paramctrl' w='46200' x='47000' y='20250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='279' h='34875' id='13' is-fixed='true' name='Hospitalization' w='37700' x='4900' y='28000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='20' mode='slider' param='[Parameters].[Parameter 4]' type-v2='paramctrl' w='46200' x='47000' y='30625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='21' mode='slider' param='[Parameters].[Parameter 10]' type-v2='paramctrl' w='46200' x='47000' y='41000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='22' mode='slider' param='[Parameters].[Parameter 5]' type-v2='paramctrl' w='46200' x='47000' y='51375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='23' mode='slider' param='[Parameters].[Parameter 8]' type-v2='paramctrl' w='46200' x='47000' y='61750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='24' mode='slider' param='[Parameters].[Parameter 7]' type-v2='paramctrl' w='46200' x='47000' y='72125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='25' mode='slider' param='[Parameters].[Parameter 6]' type-v2='paramctrl' w='46200' x='47000' y='82500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -1312,35 +1829,39 @@
       <simple-id uuid='{48875DAE-BC35-4E88-AD56-C682E247C2D0}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
-    <window class='dashboard' name='Dashboard 1'>
-      <viewpoints />
+  <windows saved-dpi-scale-factor='1.5' show-side-pane='false' source-height='33'>
+    <window class='dashboard' maximized='true' name='Healthcare Analytics'>
+      <viewpoints>
+        <viewpoint name='Hospitalization'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
       <active id='-1' />
       <simple-id uuid='{407ABAB4-BD5A-4FDD-8AD2-9221F55A11D6}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 2'>
+    <window class='worksheet' name='Hospitalization'>
       <cards>
         <edge name='left'>
-          <strip size='300'>
-            <card size='43' type='pages' />
-            <card size='59' type='filters' />
-            <card size='327' type='marks' />
-            <card size='204' type='measures' />
+          <strip size='133'>
+            <card size='18' type='pages' />
+            <card size='26' type='filters' />
+            <card size='145' type='marks' />
+            <card size='90' type='measures' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='48'>
+          <strip size='2147483647'>
             <card type='columns' />
           </strip>
-          <strip size='48'>
+          <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='17'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='300'>
+          <strip size='133'>
             <card mode='slider' param='[Parameters].[Parameter 1]' type='parameter' />
             <card mode='slider' param='[Parameters].[Parameter 9]' type='parameter' />
             <card mode='slider' param='[Parameters].[Parameter 4]' type='parameter' />
@@ -1359,43 +1880,359 @@
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Sheet 2' width='192'>
+    <thumbnail height='192' name='Healthcare Analytics' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
-      AAAHRUlEQVR4nO3bW28cZwHG8Wdm16e1s+tjHOQmDTkQOzQhrYhdEA0IEKitEKK54RK+QMUX
-      4YYvwAUg9Q6kCEFLkQChQCFVaUMJSUlccqpjx4kd727W6515uZgkpWSdZIkP8T7/39Vq3vEc
-      7PnvvrMjRyGEIMBUvNkHAGym/N0X8/PzyufzD1oXaDv3rvh8Pq9SqbSZxwJsOKZAsEYAsEYA
-      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
-      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
-      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
-      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
-      sEYAsJbf7APAkyOEoEuzt3Tm33OaW6hqoVzTQrmmbYVODZcKGiz2aHzXsHaNlpSL2+O9kwDM
-      hRB0cXZRb566oFNnr2r2ZkVJGlZdP44i7Rjq03P7P6VvHN2rXaOlDTzatReFEIIkLS4uqlTa
-      2ieDRxdC0EK5pp/95rR+/+6HWmmkLW+jIx/rhcNP67tffUYj/QVFUbQOR7q+CMBQCEFv/PW8
-      fvyrv6lWbzz29vK5WN9/8Yheen7/louAAMzUG4l+8vq7+uWfP1D6gKlOqyJJL0/u1vde/rzy
-      +a0zs26POxk8knoj0Q9fO6kTJ8+t6cUvSUrrKl88rdOn3lKaJGu77XW0dVLFY0lD0E/feE9v
-      nbny0HU7crF2DG3T9v6Cir1dqtRWdO1GWVeuL6mR3H+vEIVEU9uXdXDngK5fm9G599/TgUNH
-      tsR0iAAMhBD0u3c+1ImTZx+43kh/Qd/64gEdHR/TSH/hE191hhD00fyS3vlgRr/44z91fbF6
-      ZyDV4YGqnt09cO+CvzR9QYW+bdq1Z9+6ndNa4R7AwOxCRT/40a9VXV5pOt6Ri/WdYxN65diE
-      ujoe/p64XG/oxJ/O6bXfntbewpK+Nl5S/D/PBeJcTs9/5evq7etbk3NYL3wCGPj5H86sevEX
-      ujr06vEpTU6MPfKUpaszr1deGFd3fU7dy11Sev+cP00STZ87o2eeO/pYx77euAlucx/NL+nN
-      ty80HcvFkV49PqWpg0+1PF+fnp7WsakjenbqC4pWeSo8c/mSyku3Wj7mjUQAbe71v5xf9SHX
-      8S8f1OTEWMvbvHTpogYG+lUqlTQ0sl17D0w0XS+EoMvTzeN7UhBAG0uSVG+fvdp0bKiY3fC2
-      +s4/Pz+vQqGgoaEhSVIURdq5Z596enubrn/92swT/bUoAbSxmZvZV5fNfPtLB9TX09nS9srl
-      JcVxpOHh4U8sz+fz2rVnf9OfuV2tqFIpt7SfjUQAbez96Tml4f4HXpGkyfHWpj71el31el2D
-      g4NNx3eMrX4TfXNurqV9bSQCaGM3bt1uunxspKiRgeZTlmZWVlZUq91e9eKXpM6ubvUVm3+N
-      vrxce+R9bTQCaGM3y80D2D7Qq1Zm/nEcqVgsPvR+oadQaLq8drvawt421r3nAI1GQ9VqVXee
-      iymKIsVxrOS/bmDuPuxI0/SBy3K5nEII9y1L0/S+7T9sWRzHiqJoTY7jUfe52rk/znH8P+f+
-      OH+DOI61e7Skb07uvbcsTYMaSarP7Bxu6eb37rk/TLF/QLerVUkf/85DCEqSRJVK5Yn8ffEk
-      GNaYAsEaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAa/xTfpkKQag0pDVJHLvsfgJVU
-      6slLUZSNLydSPpZy0cev40haSaTOnJSEbFk7I4A2NlOWFmpSI5UGe7IgJOmz27Oxy7ekeiJ9
-      ekC6cud1sUu6tSxNjEizFWl8+MH72OravG9fUSTt7s/exT+3Iwtgrir1d2fjsxXp0KhU6MhC
-      ODwq9XVmkXTnpfM3snhmK5t7HuuNANpYrZH9gTtiqdQtTY5JV5eyaVFnLhtPQjYtqjWyT4pD
-      o1Jvp9SVk54uZZ8U7YwpUBu7O5UJkv4xl83t9w5K/7oh7RuU/j4rDfVITxWz14M92YXf25GN
-      n74m7RnY7LNYX/xDDKwxBYI1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
-      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
-      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
-      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
-      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoC1/wCoOE+WSzGNSwAAAABJRU5ErkJggg==
+      AAAgAElEQVR4nO29eXAc15kn+HtZhZsAeAAECd73fUiUREnUfVC2LFvqVrvHo+6ePsY9uz07
+      3bG7MREdMREbPf9t7MZuxMy0p21r3D3d3rEty5JlyrJlkZQlqkVRlHiTAAkQvEASBEiAJG6w
+      UJXf/vGu72VmFapAEACJ/DGKqMr38r2Xmd/9vvdSEBEhRowpCm+iBxAjxkQiZoAYUxoxA8SY
+      0ogZIMaURswAMaY0YgaIMaURM0CMKY2YAWJMacQMEGNKI2aAGFMaMQPEmNKIGSDGlEbMADGm
+      NGIGiDGlETNAjCmNmAFiTGnEDBBjSiNmgBhTGjEDxJjSiBkgxpRG0p+gjsdiJT453ymiUNjf
+      AqNCIeMczTU5WxIExkjsrwDg7F8QrEuyXjEEikd5rVMRE8oAt8sEfOwjtTXavgoZ52iuiQJ/
+      o9ozDJCzLsEnASGA4gLHMJWRnOgBjBVEQCSGiCR4oAApyavmInARUXfC9pwZHsBP3vgplm16
+      DIuqffxmzwE89vQz6Dh9GAPFdXjusS0TNbJJhXuGAUaCCFpIeTJAsFpOgo4qnCBzJDN8C7MX
+      LMf+zz5Bc6mHb730BH75+WGcajyDIjqJJx/bgqKJGdqkwoQ4waREoyAEjODCIAIfp0yEP7yy
+      IPspREzn6jNUKHLUjRing+zmfl64ceU8Pj9wFLfSPqYV+/jx278CSqpQ7Q1i1pz5E8WXkw5i
+      eAJ2huM9Eiji6Y+iTeThB2SpEPSXC0EhPlSuuqHxK8Pf8XPUBUSNl0j6ANOEQEWg7ODe3fhs
+      /yE8/vIfY/OyugJGfO8jZgDc+wwQIzvG1QfQBDgpNyO9DSd5oiGZ5y4a8CTCuPsARnqZz9g8
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Hospitalization' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAHJUlEQVR4nO3cS2xbWQHG8c9O4tiJnbhJJ49mBqWPYQqFySQzbWckoJqC0GwQGxawgQ17
+      logNS5bsEUskhBASFVSoQpNGbUWnUdQ2oUA7pQ+mbRLsxmnSPK4TPw6LQJkShyaOZ7L4/r/l
+      vfbJsXT/9vG9uY6FEIIAU/G9ngCwlwgA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA
+      1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA
+      1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA
+      1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA
+      1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1ggA1pr3egLwUVwva2G5qKcr
+      a3qyFKlcqWp/tk3ZdFKd7UklE5/+4UgA+MSEELQcrevq7Vldvz2rG/fyWlguqhrCc4+Lx2Lq
+      TLfq9cO9OnF0QENH+pROJT6VOcZC+J/ZAA2wWizpd5c/1NnLt7Ucre/ouZ3trfrml47qvRNH
+      1JZs+YRmuIEA0FDVEHRx8iP94o9TKjyNdjVWfzroR995W58ZPNig2W3GEggNUypX9KvRv+i3
+      l25tWubsWKjoSHuk23++rvVoVYde+5zi8cafs+ETAA0RrZX0019/oIlbMw0ZbyDxVN94fZ+a
+      /n3Q9x4Y0LGR42pqamrI+P/BJwB2rRqCfn722rYP/kxbQulUq5qb4lpc2Tgr9HEtYU2nDrc9
+      O/glKTczreaWhD7/xkhD504A2JUQgn7/pw91/tr9//u4A90Zfe2tQ3rjSJ/6uzNqboorHotp
+      vVzRbGFJE7emNXrtvvLzy3qzt6Jsun3TGNMf3Vc6k9Erh44oFos1ZP4sgbArd6fn9cOfva9y
+      pVpzf6q1Wd/9+pDeHT6o1hec54/WSvrNHy6qv3lR2uKwjMXjOnnqtDIdnbueu8SVYOxCCEG/
+      fP/Glgd/X1daP/n+V/XeyVdfePBL0lq0otMnXtPJr7yrZCpV+29Wq7p7829q1Ps2AaBuN+7l
+      df3v/6y5ryuT0o+/d0qD/fu2NVa1WlUul9PAwIA6svs08s6XlWhN1nzsXG5WC/OFuuf9cQSA
+      up394HbN053xeEw/+Nbb6u/ObHusmZlpDQ4OPlvbt2cyOjb8pqTNa/0Qgh7ev1v3vJ+ba0NG
+      gZ3VYklTd2q/+79z7BV98VDPtscqFotqa2tTMtn63Pbunl719PfXfE4hn1O5XN7+hLdAAKjL
+      X/+R11qpsml7PBbTt09/YdtnaUIIevJkXt3d3Zv2xWIxHfzs0ZrPK5dKWmzAMogAUJcb9/I1
+      t7/c06GXX+rY9jhRFKmrq2vL/ZnOrNoztZdS83OPt/13tkIAqEthcbXm9uFXay9ZttLc3KRk
+      svaXXWnjU6DrpdrLqbXi7v7XSCIA1CGEoIXlYs19ffs2X8Dayvr6upqbX3x6NJVqq7m9GEW7
+      Ph3KlWDU5a2jB3R44L9Ll1K5ohD03LYXSSRatvVdob2jU9muje8I1erGNYcQglpadn/PAFeC
+      YY0lEKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAOry8OFDjY2NqVgsanJyUpcv
+      X1alsnGDTKFQ0OjoqJaXl5XL5XT+/HlFUaSrV69qdnZWjx8/1srKyh6/gg0EgB0rl8uamJjQ
+      yMiIoijSzMyMmpqa9ODBA4UQdOHCBR0/flxjY2O6dOmShoeHde7cOa2srGhqakqTk5MN/4W3
+      ehEAdqxYLGp6eloXL17UnTt3lMvldPPmTWWzWUlSPB5XR0eHSqWSWlpalM1mVa1WtbS0pEKh
+      oFwupzNnzuzxq9jA/QDYsVQqpZ6eHmWzWS0tLSmdTquzs1OPHj1SPp9XIpHQ+Pi4uru7tbCw
+      oCtXrmhgYEBDQ0MaHx9XFEVaXV1VCKFhv/BWL+4HQF2iKNLi4qJ6e3u1sLCgUqmk/fv3K4oi
+      tba2Kp/Pq6+vT5VKRXNzc+rr63v2Kw7lcllra2vPPjH2EgHAGt8BYI0AYI0AYI0AYI0AYI0A
+      YI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0A
+      YI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0A
+      YI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0A
+      YI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYI0AYO1f2pXw
+      KWPMcqYAAAAASUVORK5CYII=
     </thumbnail>
   </thumbnails>
 </workbook>
